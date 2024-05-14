@@ -3,10 +3,7 @@
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![License](https://img.shields.io/badge/license-MIT-blue)
-![Contributors](https://img.shields.io/github/contributors/username/react-notes-app)
-![Issues](https://img.shields.io/github/issues/username/react-notes-app)
-![Last Commit](https://img.shields.io/github/last-commit/username/react-notes-app)
-![Code Quality](https://img.shields.io/codacy/grade/xxxxxxxxxxxx) <!-- Replace with actual Codacy ID -->
+
 
 React Notes App is a modern note-taking application built using React. This application allows users to create, edit, and delete notes with ease.
 
@@ -49,7 +46,7 @@ You need to have Node.js and npm installed on your machine.
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/username/react-notes-app.git
+   git clone https://github.com/Malikusfz/react-notes-app.git
    ```
 
 2. Navigate to the project directory
@@ -92,4 +89,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Malikus Syafaadi Nurfaza - [LinkedIn](https://www.linkedin.com/in/malikussyafaadinurfaza/)
 
-Project Link: [https://github.com/username/react-notes-app](https://github.com/username/react-notes-app)
+Project Link: [https://github.com/Malikusfz/react-notes-app](https://github.com/Malikusfz/react-notes-app)
