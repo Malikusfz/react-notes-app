@@ -1,0 +1,98 @@
+.input-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto 0;
+  padding: 25px;
+  background: var(--white);
+  border-radius: 15px;
+  box-shadow: var(--shadow-soft);
+  transition: box-shadow 0.3s ease;
+}
+
+.input-container:hover {
+  box-shadow: var(--shadow-medium);
+}
+
+.input-container input[type="text"],
+.input-container textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 2px solid #E0E7FF;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  color: var(--text-primary);
+  background: var(--white);
+}
+
+.input-container input[type="text"]::placeholder,
+.input-container textarea::placeholder {
+  color: #A0AEC0;
+}
+
+.input-container input[type="text"]:focus,
+.input-container textarea:focus {
+  border-color: var(--primary-color);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(108, 99, 255, 0.1);
+  background: var(--white);
+}
+
+.input-container textarea {
+  min-height: 120px;
+  resize: vertical;
+  line-height: 1.6;
+  background: var(--white);
+}
+
+.character-limit {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-top: 5px;
+}
+
+.character-limit.warning {
+  color: var(--secondary-color);
+}
+
+button {
+  background: var(--primary-color);
+  color: var(--white);
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-soft);
+}
+
+button:hover:not(:disabled) {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-medium);
+}
+
+button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  transform: none;
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .input-container {
+    padding: 15px;
+  }
+
+  button {
+    padding: 10px 20px;
+  }
+}
